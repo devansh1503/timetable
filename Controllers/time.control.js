@@ -16,6 +16,7 @@ function getthedata(){
             res = element
         }
     });
+    console.log(res)
     return res
 }
 
