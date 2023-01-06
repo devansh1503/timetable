@@ -1,4 +1,5 @@
 const express = require('express')
+const { getmessdata } = require('../Controllers/mess.control')
 const { getthedata } = require('../Controllers/time.control')
 const app = express()
 
@@ -6,10 +7,12 @@ const timeRoute = express.Router()
 
 timeRoute.get('/', (req,res)=>{
     const data = getthedata()
-    const sub = data.Subject
-    const room = data.room
-    const time = data.time
     // res.render('index', {sub:sub, room:room, time:time})
+    res.json(data)
+})
+
+timeRoute.get('/mess', (req, res)=>{
+    const data = getmessdata()
     res.json(data)
 })
 
