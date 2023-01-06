@@ -17,7 +17,7 @@ const data = {
         {
             "Subject":"BEE",
             "hour":14,
-            "ehour":17,
+            "ehour":16,
             "time":"2:15 -- 4:30",
             "room":"TG-402"
         }
@@ -26,21 +26,21 @@ const data = {
         {
             "Subject":"SD",
             "hour":11,
-            "ehour":12,
+            "ehour":11,
             "time":"11:15 -- 12:00",
             "room":"TG-417"
         },
         {
             "Subject":"NALR",
             "hour":12,
-            "ehour":11,
+            "ehour":13,
             "time":"12:00 -- 2:15",
             "room":"TG-402"
         },
         {
             "Subject":"ADI",
             "hour":14,
-            "ehour":17,
+            "ehour":16,
             "time":"2:15 -- 4:30",
             "room":"TG-312"
         }
@@ -50,7 +50,7 @@ const data = {
         {
             "Subject":"NALR",
             "hour":11,
-            "ehour":12,
+            "ehour":11,
             "time":"11:15 -- 12:45",
             "room":"TG-409"
         },
@@ -64,7 +64,7 @@ const data = {
         {
             "Subject":"ADI",
             "hour":14,
-            "ehour":17,
+            "ehour":16,
             "time":"2:15 -- 4:30",
             "room":"TG-421"
         }
@@ -73,7 +73,7 @@ const data = {
         {
             "Subject":"BEE",
             "hour":11,
-            "ehour":13,
+            "ehour":12,
             "time":"11:15 -- 1:30",
             "room":"TG-323"
         },
@@ -87,7 +87,7 @@ const data = {
         {
             "Subject":"ADI",
             "hour":14,
-            "ehour":17,
+            "ehour":16,
             "time":"2:15 -- 4:30",
             "room":"TG-312"
         }
@@ -103,7 +103,7 @@ const data = {
         {
             "Subject":"BEE",
             "hour":11,
-            "ehour":15,
+            "ehour":14,
             "time":"12:00 -- 3:00",
             "room":"TG-402"
         }
