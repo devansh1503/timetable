@@ -94,14 +94,14 @@ const data = {
     ],
     "friday":[
         {
-            "Subject":"BEE",
+            "Subject":"ADI",
             "hour":9,
             "ehour":10,
             "time":"9:00 -- 12:00",
             "room":"TG-501"
         },
         {
-            "Subject":"ADI",
+            "Subject":"BEE",
             "hour":11,
             "ehour":15,
             "time":"12:00 -- 3:00",
