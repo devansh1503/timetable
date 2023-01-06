@@ -8,8 +8,8 @@ function getthedata(){
     const tt = data[days[day]]
     var res = {
         "Subject":"Kitna Padega bsdk",
-        "time":"",
-        "room":""
+        "time":hrs,
+        "room":day
     }
     tt.forEach(element => {
         if(element.hour<=hrs && element.ehour>=hrs){
