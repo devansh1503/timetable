@@ -5,10 +5,9 @@ function getthedata(){
     const currdate = new Date()
     console.log(currdate)
     const day = currdate.getDay()-1
-    var hrs = currdate.toLocaleString(undefined, {timeZone: 'Asia/Kolkata'}).split(',')[1].split(":")[0]
+    var hrs = +currdate.toLocaleString(undefined, {timeZone: 'Asia/Kolkata'}).split(',')[1].split(":")[0]
     var ampm = currdate.toLocaleString(undefined, {timeZone: 'Asia/Kolkata'}).split(',')[1].split(":")[2].split(" ")[1]
-    hrs = ampm=="PM"? +hrs+12 : +hrs
-    const tt = data[days[day]]
+    hrs = (ampm=="PM" && hrs!=12)? +hrs+12 : +hrs
     var res = {
         "Subject":"Kitna Padhenge aap 🙂",
         "time":"",
