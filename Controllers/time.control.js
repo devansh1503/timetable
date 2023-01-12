@@ -13,6 +13,8 @@ function getthedata(){
         "time":"",
         "room":""
     }
+    const d = days[day]
+    const tt = data[d]
     tt.forEach(element => {
         if(element.hour<=hrs && element.ehour>=hrs){
             res = element
