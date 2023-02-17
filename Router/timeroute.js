@@ -5,13 +5,13 @@ const app = express()
 
 const timeRoute = express.Router()
 
-timeRoute.get('/', (req,res)=>{
+timeRoute.get('/time', (req,res)=>{
     const data = getthedata()
     // res.render('index', {sub:sub, room:room, time:time})
     res.json(data)
 })
 
-timeRoute.get('/mess', (req, res)=>{
+timeRoute.get('/mess',(req, res)=>{
     const data = getmessdata()
     res.json(data)
 })

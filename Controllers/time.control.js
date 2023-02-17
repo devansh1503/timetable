@@ -1,25 +1,10 @@
 const {data} = require('./timedata')
 
 function getthedata(){
-    const days = ["monday","tuesday","wednesday","thursday","friday"]
     const currdate = new Date()
-    console.log(currdate)
-    const day = currdate.getDay()-1
-    var hrs = +currdate.toLocaleString(undefined, {timeZone: 'Asia/Kolkata'}).split(',')[1].split(":")[0]
-    var ampm = currdate.toLocaleString(undefined, {timeZone: 'Asia/Kolkata'}).split(',')[1].split(":")[2].split(" ")[1]
-    hrs = (ampm=="PM" && hrs!=12)? +hrs+12 : +hrs
-    var res = {
-        "Subject":"Kitna Padhenge aap 🙂",
-        "time":"",
-        "room":""
-    }
-    const d = days[day]
-    const tt = data[d]
-    tt.forEach(element => {
-        if(element.hour<=hrs && element.ehour>=hrs){
-            res = element
-        }
-    });
+    const day = currdate.getDay()
+    if(day > 5) return []
+    const res = data[day-1]
     return res
 }
 

@@ -1,115 +1,121 @@
-const data = {
-    "monday":[
+const data = [
+    [
         {
-            "Subject":"NALR",
-            "hour": 11,
-            "ehour":12,
-            "time":"11:15 -- 12:45",
-            "room":"TG - 312"
+            "subject":"ADS",
+            "time":"9:00 A.M. - 10:30 A.M.",
+            "room":"TG 501 A"
         },
         {
-            "Subject":"SD",
-            "hour":13,
-            "ehour":13,
-            "time": "1:30 -- 2:15",
-            "room":"TG - 417"
+            "subject":"OOSE",
+            "time":"11:15 A.M. - 12:00 P.M.",
+            "room":"TG 323"
         },
         {
-            "Subject":"BEE",
-            "hour":14,
-            "ehour":16,
-            "time":"2:15 -- 4:30",
-            "room":"TG-402"
+            "subject":"CC",
+            "time":"1:30 P.M. - 3:00 P.M.",
+            "room":"TG 501 A"
+        },
+        {
+            "subject":"ABEE",
+            "time":"3:00 P.M. - 4:30 P.M.",
+            "room":"TG 410"
         }
     ],
-    "tuesday":[
+    [
         {
-            "Subject":"SD",
-            "hour":11,
-            "ehour":11,
-            "time":"11:15 -- 12:00",
-            "room":"TG-417"
+            "subject":"IP",
+            "time":"9:00 A.M. - 10:30 A.M.",
+            "room":""
         },
         {
-            "Subject":"NALR",
-            "hour":12,
-            "ehour":13,
-            "time":"12:00 -- 2:15",
-            "room":"TG-402"
+            "subject":"OOSE",
+            "time":"11:15 A.M. - 12:00 P.M.",
+            "room":"TG 417"
         },
         {
-            "Subject":"ADI",
-            "hour":14,
-            "ehour":16,
-            "time":"2:15 -- 4:30",
-            "room":"TG-312"
-        }
-        
-    ],
-    "wednesday":[
-        {
-            "Subject":"NALR",
-            "hour":11,
-            "ehour":11,
-            "time":"11:15 -- 12:45",
-            "room":"TG-409"
+            "subject":"CC",
+            "time":"1:30 P.M. - 3:00 P.M.",
+            "room":"TG 417"
         },
         {
-            "Subject":"SD",
-            "hour":12,
-            "ehour":13,
-            "time":"12:45 -- 1:30",
-            "room":"TG-509"
-        },
-        {
-            "Subject":"ADI",
-            "hour":14,
-            "ehour":16,
-            "time":"2:15 -- 4:30",
-            "room":"TG-421"
+            "subject":"AFEE",
+            "time":"3:00 P.M. - 4:30 P.M.",
+            "room":"TG 417"
         }
     ],
-    "thursday":[
+    [
         {
-            "Subject":"BEE",
-            "hour":11,
-            "ehour":12,
-            "time":"11:15 -- 1:30",
-            "room":"TG-323"
+            "subject":"ABEE",
+            "time":"9:00 A.M. - 10:30 A.M.",
+            "room":"TG 501"
         },
         {
-            "Subject":"SD",
-            "hour":13,
-            "ehour":13,
-            "time":"1:30 -- 2:15",
-            "room":"TG-401/011"
+            "subject":"ADS",
+            "time":"10:30 A.M. - 12:00 P.M.",
+            "room":"TG 322"
         },
         {
-            "Subject":"ADI",
-            "hour":14,
-            "ehour":16,
-            "time":"2:15 -- 4:30",
-            "room":"TG-312"
+            "subject":"CC",
+            "time":"1:30 P.M. - 3:00 P.M.",
+            "room":"TG 311"
+        },
+        {
+            "subject":"OOSE",
+            "time":"3:45 P.M. - 4:30 P.M.",
+            "room":"TG 318"
         }
     ],
-    "friday":[
+    [
         {
-            "Subject":"ADI",
-            "hour":9,
-            "ehour":10,
-            "time":"9:00 -- 12:00",
-            "room":"TG-501"
+            "subject":"AFEE",
+            "time":"9:00 A.M. - 10:30 A.M.",
+            "room":"TG 323"
         },
         {
-            "Subject":"BEE",
-            "hour":11,
-            "ehour":14,
-            "time":"12:00 -- 3:00",
-            "room":"TG-402"
+            "subject":"ADS",
+            "time":"10:30 A.M. - 12:00 P.M.",
+            "room":"TG 502"
+        },
+        {
+            "subject":"CC",
+            "time":"1:30 P.M. - 3:00 P.M.",
+            "room":"TG 323"
+        },
+        {
+            "subject":"OOSE",
+            "time":"3:45 P.M. - 4:30 P.M.",
+            "room":"TG 409"
         }
     ],
-    
-}
+    [
+        {
+            "subject":"IP",
+            "time":"9:00 A.M. - 10:30 A.M.",
+            "room":""
+        },
+        {
+            "subject":"AFEE",
+            "time":"11:15 A.M. - 12:00 P.M.",
+            "room":"TG 510"
+        },
+        {
+            "subject":"CC",
+            "time":"12:00 P.M. - 130 P.M.",
+            "room":"TG 510"
+        },
+        {
+            "subject":"OOSE",
+            "time":"3:00 P.M. - 3:45 P.M.",
+            "room":"TG 420"
+        },
+        {
+            "subject":"ABEE",
+            "time":"3:45 P.M. - 4:30 P.M.",
+            "room":"TG 417"
+        }
+
+    ]
+]
 module.exports = {
     data,
 }
