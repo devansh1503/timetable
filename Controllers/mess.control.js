@@ -7,8 +7,11 @@ function getmessdata(){
     var hrs = +currdate.toLocaleString(undefined, {timeZone: 'Asia/Kolkata'}).split(',')[1].split(":")[0]
     var ampm = currdate.toLocaleString(undefined, {timeZone: 'Asia/Kolkata'}).split(',')[1].split(":")[2].split(" ")[1]
     console.log(hrs)
-    console.log(currdate.toLocaleString(undefined,{timeZone: 'Asia/Kolkata'}))
-    hrs = (ampm=="PM" && hrs!=12)? +hrs+12 : +hrs
+    if(ampm==="PM" && hrs!=12){
+        console.log("condition achieved")
+        hrs = hrs+12
+    }
+    // hrs = (ampm=="PM" && hrs!=12)? +hrs+12 : +hrs
     console.log(hrs)
     const tt = mdata[day]
     var res = {}
