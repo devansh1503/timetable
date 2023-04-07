@@ -1,6 +1,6 @@
 const { mdata } = require("./messdata")
 
-function getthedata(day) {
+function getmessdata(day) {
     var res = []
     try {
         res = mdata[day]
