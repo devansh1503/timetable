@@ -1,194 +1,138 @@
 const mdata = [
     [
         {
-            "type":"Breakfast",
-            "meal":"Aloo Paratha + Curd/Butter + Pickle + Tea",
-            "startHour":7,
-            "endHour":8
+            "subject":"Poha+Sweet Daliya+Tea",
+            "time":"Breakfast",
         },
         {
-            "type":"Lunch",
-            "meal":"Rajmah Masala + Aloo Jeera + Steamed Rice + Roti",
-            "startHour":9,
-            "endHour":14
+            "subject":"Rajmah + Aloo Jeera + rice",
+            "time":"Lunch",
         },
         {
-            "type":"Snacks",
-            "meal":"Bread Pakoda/Cake + Tea",
-            "startHour":15,
-            "endHour":17
+            "subject":"Samosa/Patty",
+            "time":"Snacks",
         },
         {
-            "type":"Dinner",
-            "meal":"Moong Saboot Dal + Mutter Paneer + Rice + Roti + Laddoo",
-            "startHour":18,
-            "endHour":20
-        },
-        
-    ],
-
-    [
-        {
-            "type":"Breakfast",
-            "meal":"Pav Bhaji + Tea",
-            "startHour":7,
-            "endHour":8
-        },
-        {
-            "type":"Lunch",
-            "meal":"Mah Channa Dal + Aloo Methi + Rice + Roti",
-            "startHour":9,
-            "endHour":14
-        },
-        {
-            "type":"Snacks",
-            "meal":"Patty/ Samosa",
-            "startHour":15,
-            "endHour":17
-        },
-        {
-            "type":"Dinner",
-            "meal":"Arhar Malka Dal + Vegetable Fried Rice + Manchurian",
-            "startHour":18,
-            "endHour":20
+            "subject":"Moong Saboot+Kadai Paneer+Rasgulla",
+            "time":"Dinner",
         },
         
     ],
     [
         {
-            "type":"Breakfast",
-            "meal":"Ajwain Paratha + Aloo Ki Sabji",
-            "startHour":7,
-            "endHour":8
+            "subject":"Aloo Paratha + Butter",
+            "time":"Breakfast",
         },
         {
-            "type":"Lunch",
-            "meal":"Dal Makhani + Aloo Gaja Muttar + Rice + Roti + Mint Raita",
-            "startHour":9,
-            "endHour":14
+            "subject":"Channa Masala + Shimla Mirch",
+            "time":"Lunch",
         },
         {
-            "type":"Snacks",
-            "meal":"Bread Pakoda/Cake + Tea",
-            "startHour":15,
-            "endHour":17
+            "subject":"Samosa/Patty",
+            "time":"Snacks",
         },
         {
-            "type":"Dinner",
-            "meal":"Saboot Masoor Dal + Pindi Channa + Roti + Hot Milk",
-            "startHour":18,
-            "endHour":20
+            "subject":"Daal Makhni + Seasonal Vegetable + Kulfi",
+            "time":"Dinner",
         },
         
     ],
     [
         {
-            "type":"Breakfast",
-            "meal":"Macroni + Bread Butter & Jam + Coffee",
-            "startHour":7,
-            "endHour":8
+            "subject":"Pao Bhaaji/Ajwain Paratha",
+            "time":"Breakfast",
         },
         {
-            "type":"Lunch",
-            "meal":"Kadhi Pakoda + Aloo Mutter + Rice + Roti",
-            "startHour":9,
-            "endHour":14
+            "subject":"Soya Chaap + Dal Tadka",
+            "time":"Lunch",
         },
         {
-            "type":"Snacks",
-            "meal":"Multigrain Chips/ Noodles Masala (Par mujhe nhi lgta ye denge)",
-            "startHour":15,
-            "endHour":17
+            "subject":"Bhel Poori + Nimbu Paani",
+            "time":"Snacks",
         },
         {
-            "type":"Dinner",
-            "meal":"Rajmah Masala + Aloo Gobhi + Rice + Roti + Ladoo",
-            "startHour":18,
-            "endHour":20
+            "subject":"Arhar ki dal + Nutri Keema",
+            "time":"Dinner",
         },
         
     ],
     [
         {
-            "type":"Breakfast",
-            "meal":"Methi Paratha",
-            "startHour":7,
-            "endHour":8
+            "subject":"Gobhi Paratha + curd",
+            "time":"Breakfast",
         },
         {
-            "type":"Lunch",
-            "meal":"Black Channa + Chinese Nutri + Rice + Cuccumber Raita",
-            "startHour":9,
-            "endHour":14
+            "subject":"Kadhi Pakoda + Aloo Mutter",
+            "time":"Lunch",
         },
         {
-            "type":"Snacks",
-            "meal":"Samosa / Patty",
-            "startHour":15,
-            "endHour":17
+            "subject":"Bread Roll/Mathi",
+            "time":"Snacks",
         },
         {
-            "type":"Dinner",
-            "meal":"Moong Masoor Dal + Kadhai Paneer/Mutter Paneer + Egg curry + Rice + Rasgulla",
-            "startHour":18,
-            "endHour":20
+            "subject":"Black Channa + Mix Vegetable + Gulab Jamun",
+            "time":"Dinner",
         },
         
     ],
     [
         {
-            "type":"Breakfast",
-            "meal":"Mix/Gobhi Paratha",
-            "startHour":7,
-            "endHour":8
+            "subject":"Vegetable Sandwich + Daliya",
+            "time":"Breakfast",
         },
         {
-            "type":"Lunch",
-            "meal":"Dal Tadka + Kofta Curry + Roti",
-            "startHour":9,
-            "endHour":14
+            "subject":"White Channa + Kadoo ki sabji",
+            "time":"Lunch",
         },
         {
-            "type":"Snacks",
-            "meal":"Biscuit + Coffee",
-            "startHour":15,
-            "endHour":17
+            "subject":"Mathi/Bread Roll",
+            "time":"Snacks",
         },
         {
-            "type":"Dinner",
-            "meal":"Dal Lobhia + Mix Veg + Roti + Rice + Hot Milk/ Gulab Jamun",
-            "startHour":18,
-            "endHour":20
+            "subject":"Moong Masoor Dal + Kadhai Paneer/Mutter Paneer + Egg Curry + Rasgulla",
+            "time":"Dinner",
         },
         
     ],
     [
         {
-            "type":"Breakfast",
-            "meal":"Veg Sandwich + Sweet Daliya",
-            "startHour":7,
-            "endHour":8
+            "subject":"Macroni + Bread Jam + Bread Butter + Coffee",
+            "time":"Breakfast",
         },
         {
-            "type":"Lunch",
-            "meal":"Dal Makhani + Veg Pulao + Roti / White Channa + Kulcha + Rice",
-            "startHour":9,
-            "endHour":14
+            "subject":"Rajmah + Tamaloo",
+            "time":"Lunch",
         },
         {
-            "type":"Snacks",
-            "meal":"Namkeen + Tea",
-            "startHour":15,
-            "endHour":17
+            "subject":"Namkeen + Tea",
+            "time":"Snacks",
         },
         {
-            "type":"Dinner",
-            "meal":"Sambhar/ Channa Dal + Chilli Potato/ Aloo South Indian + Rice + Roti + Gulab Jamun/Hot Milk",
-            "startHour":18,
-            "endHour":20
+            "subject":"Giya Channe ki dal + Mushroom mutter + seviyaan kheer/gulab jamun",
+            "time":"Dinner",
         },
         
-    ]
+    ],
+    [
+        {
+            "subject":"Sooji ka Halwa + (Black Channa/Aloo ki sabzi)+ poori",
+            "time":"Breakfast",
+        },
+        {
+            "subject":"Dal Makhani + Kofta curry + Vegetable Pulao",
+            "time":"Lunch",
+        },
+        {
+            "subject":"Biscuit + Tea",
+            "time":"Snacks",
+        },
+        {
+            "subject":"Dal Amritsari + Aloo Gobhi + Gulab Jamun/ Seviyaan kheer",
+            "time":"Dinner",
+        },
+        
+    ],
+    
 ]
 
 module.exports = {
