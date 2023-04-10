@@ -20,11 +20,11 @@ timeRoute.get('/time/:day', (req,res)=>{
 timeRoute.get('/mess', (req, res) => {
     const currdate = new Date()
     const day = currdate.getDay()
-    const data = getmessdata(day-1)
+    const data = getmessdata(day)
     res.json(data)
 })
 timeRoute.get('/mess/:day', (req, res) => {
-    const data = getmessdata(req.params.day-1)
+    const data = getmessdata(req.params.day)
     res.json(data)
 })
 module.exports = {

@@ -1,6 +1,25 @@
 const mdata = [
     [
         {
+            "subject":"Sooji ka Halwa + (Black Channa/Aloo ki sabzi)+ poori",
+            "time":"Breakfast",
+        },
+        {
+            "subject":"Dal Makhani + Kofta curry + Vegetable Pulao",
+            "time":"Lunch",
+        },
+        {
+            "subject":"Biscuit + Tea",
+            "time":"Snacks",
+        },
+        {
+            "subject":"Dal Amritsari + Aloo Gobhi + Gulab Jamun/ Seviyaan kheer",
+            "time":"Dinner",
+        },
+        
+    ],
+    [
+        {
             "subject":"Poha+Sweet Daliya+Tea",
             "time":"Breakfast",
         },
@@ -112,26 +131,7 @@ const mdata = [
             "time":"Dinner",
         },
         
-    ],
-    [
-        {
-            "subject":"Sooji ka Halwa + (Black Channa/Aloo ki sabzi)+ poori",
-            "time":"Breakfast",
-        },
-        {
-            "subject":"Dal Makhani + Kofta curry + Vegetable Pulao",
-            "time":"Lunch",
-        },
-        {
-            "subject":"Biscuit + Tea",
-            "time":"Snacks",
-        },
-        {
-            "subject":"Dal Amritsari + Aloo Gobhi + Gulab Jamun/ Seviyaan kheer",
-            "time":"Dinner",
-        },
-        
-    ],
+    ]
     
 ]
 
